@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { TodoDataService } from './todo-data.service';
+import { ApiService } from './api.service';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -15,7 +16,10 @@ describe('AppComponent', () => {
         AppComponent
       ],
       providers: [
-        TodoDataService
+        TodoDataService,
+        {
+          provide: ApiService
+        }
       ],
       schemas: [
         NO_ERRORS_SCHEMA
