@@ -1,0 +1,15 @@
+.view{
+  padding-left:10px;
+}
+
+.view label{
+  padding-left:10px;
+  padding-right: 10px;
+}
+
+.destroy{
+  background:none;
+  border:none;
+  color:white;
+  float:right;
+}
