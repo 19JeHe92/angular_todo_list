@@ -1,24 +1,44 @@
 {
   "todos": [
     {
-      "id": 2,
-      "title": "Clean inbox",
-      "complete": false
-    },
-    {
-      "id": 3,
-      "title": "Make restaurant reservation",
-      "complete": false
-    },
-    {
-      "title": "test",
-      "complete": false,
+      "title": "Learn Angular CLI",
+      "complete": true,
       "id": 4
     },
     {
       "title": "test",
       "complete": false,
       "id": 5
+    },
+    {
+      "title": "todo 1",
+      "complete": false,
+      "id": 6
+    },
+    {
+      "title": "todo 2",
+      "complete": false,
+      "id": 7
+    },
+    {
+      "title": "todo 3",
+      "complete": false,
+      "id": 8
+    },
+    {
+      "title": "lala",
+      "complete": false,
+      "id": 9
+    },
+    {
+      "title": "make an todo app",
+      "complete": false,
+      "id": 10
+    },
+    {
+      "title": "change css",
+      "complete": false,
+      "id": 11
     }
   ]
 }
