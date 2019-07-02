@@ -1,0 +1,10 @@
+.header{
+  background-color: rgb(97, 179, 80);
+  color:white;
+  padding:20px;
+}
+
+.new-todo{
+  border-radius: 0;
+
+}
